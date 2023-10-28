@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(243,212,226,1) 5%, rgba(193,205,243,1) 86%, rgba(226,237,250,1) 100%);
+}
+
+.images{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#main-img{
+    width: 300px;
+    height: 350px;
+    border-radius: 40px;
+    box-shadow: 10px 10px rgb(255,204,0);
+    border: 2px groove rgb(255,204,0);
+    margin: 50px 0 0 100px;
+}
+
+.aboutMe{
+    margin: 150px 0 0 180px;
+    background-color: white;
+    height: 120px;
+    padding: 30px;
+    border-radius: 20%;
+    border: 5px outset rgb(255,204,0);
+    background-color:ivory;
+}
+
+.headings, .paras{
+    font-family: 'Rubik', sans-serif;
+}
+
+.main{
+    color:#1e9575;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.main2{
+    color: rgb(194, 144, 19);
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.about,.hobby,.addExp,.plans{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.course,.hobbyAbout,.addExpAbout,.plansAbout{
+    margin-left: 180px;
+    margin-top: 80px;
+    width: 500px;
+    border: 2px outset rgb(255,204,0);
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(255,204,0);
+    height: 150px;
+    padding: 30px;
+    background-color: ivory;
+
+}
+
+.courseImg,.hobbyImg,.addExpImg ,.plansImg    {
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+.headings{
+    color: rgb(255,204,0);
+    text-shadow: 3px 3px #8b0f0f;
+}
+
+.paras{
+    color:#1e9575;
+}
+
+.addExpAbout{
+    height: 200px;
+}
+
+footer{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer div{
+    margin-top: 45px;
+    color: ivory;
+    font-family: 'Rubik', sans-serif;
+
+}
