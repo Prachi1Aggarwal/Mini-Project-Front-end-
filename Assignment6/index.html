@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Generator</title>
+</head>
+<body>
+
+  <h1>Resume Generator</h1>
+
+  <!-- Form Section -->
+  <form id="resumeForm">
+
+    <!-- Upload Photo -->
+    <label>Upload Photo:</label><br>
+    <input type="file" id="photoInput" accept="image/*"><br><br>
+
+    <!-- Basic Info -->
+    <label>Full Name:</label><br>
+    <input type="text" id="fullName" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="text" id="phone" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea id="address" rows="2" cols="30" required></textarea><br><br>
+
+    <!-- Education -->
+    <h3>Education</h3>
+    <label>Degree:</label><br>
+    <input type="text" id="degree" required><br><br>
+
+    <label>Institution:</label><br>
+    <input type="text" id="institution" required><br><br>
+
+    <label>Passing Year:</label><br>
+    <input type="text" id="passingYear" required><br><br>
+
+    <!-- Skills -->
+    <h3>Skills (Comma separated)</h3>
+    <input type="text" id="skills" placeholder="e.g. HTML, JavaScript, C++" required><br><br>
+
+   
+
+    <!-- Projects -->
+    <h3>Project</h3>
+    <label>Project Title:</label><br>
+    <input type="text" id="projectTitle" required><br><br>
+
+    <label>Project Description:</label><br>
+    <textarea id="projectDesc" rows="3" cols="30" required></textarea><br><br>
+
+    <button type="button" onclick="generateResume()">Generate Resume</button>
+  </form>
+
+  <hr>
+
+  <!-- Resume Display -->
+  <div id="resumeOutput">
+    <!-- Resume will appear here -->
+  </div>
+
+
+</body>
+<script src = "index.js"></script>
+</html>
