@@ -1,0 +1,391 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+div{
+    display: block;
+}
+header{
+    background-image: url("https://zomatoupskillzclone.netlify.app/images/hero.jpg");
+    box-sizing:border-box;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px; 
+    width:100%;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    top: 25px;
+}
+nav .option{
+    box-sizing: border-box;
+    font-size:15px;
+    font-family: arial;
+    margin-left:200px;
+}
+nav .box a{
+    text-decoration: none;
+    color:white;
+    margin:12px;
+}
+nav .anchor{
+    margin-right:200px;
+    font-size:large;
+    font-family:Helvetica;
+}
+div .image{
+    text-align: center;
+    width: 300px;
+
+}
+div .zomato{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:620px;
+    margin-top:85px;
+    text-align:center;
+}
+div .heading{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    margin-left:400px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.fi-rs-marker{
+    color:#F50782;
+}
+.inp input{
+    background-color: white;
+    height:50px;
+    width:180px;
+    border:2px dashed white;
+    outline: none;
+    margin:0px;
+}
+div .inp{
+    border: 2px dashed white;
+    background-color: white;
+    display: flex;
+    height:50px;
+    width:200px;
+    margin:0px;
+}
+.inp i{
+    margin-top:15px;
+    margin-left:5px;
+}
+.inptxt{
+    border:none;
+    background-color: white;
+    width:820px;
+    height:60px;
+    display: flex;
+    margin-left:400px;
+    border-radius: 10px;
+}
+
+.hrLine{
+    background-color: grey;
+    border:1px solid grey;
+    width:2px;
+    height:40px;
+    margin:0px;
+    margin-top:10px;
+    margin-left:15px;
+}
+.loc{
+    border: 2px dashed white;
+    background-color: white;
+    display: flex;
+    height:50px;
+    width:600px;
+    margin:0px;
+}
+.loc input{
+    border: white;
+    margin:0px;
+    width: 580px;
+    margin-left:10px;
+}
+.loc i{
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.sections{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top:30px;
+}
+.sections .items{
+    margin-top:3px;
+    margin-left:16px;
+    border:1px solid rgb(215, 205, 205);
+    border-radius: 10px;
+    overflow:hidden;
+    cursor: pointer;
+}
+.sections .items .imgg{
+    border-radius:10px;
+    border:1px solid rgb(215, 205, 205);
+    width:23rem; 
+    height:15rem;
+    z-index: -1;
+}
+.sections .items .details{
+    position:absolute;
+    background: white;
+    align-items: center;
+    width: 23rem;
+    height:5rem;
+    bottom:3px;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0,0,10px,10px;
+}
+
+.section-2, .section-3{
+    
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top:30px;
+    margin-left:200px;
+}
+
+.sections .items .details p,h2{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.section-2 .item-headings p{
+    font-weight: 5;
+    font-size: 20px;
+}
+.section-2 .item-headings a{
+    text-decoration: none;
+    color:red;
+    margin-left:60px;
+}
+.section-2 .item-headings i{
+    color:red;
+}
+.section-2 .item-headings h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.section-2 .section-image img{
+    border-radius:8px;
+    height:350px;
+    width:280px;
+    margin-right:10px;
+    cursor:pointer;
+}
+.section-2 .section-image .div-section-2{
+    display:flex;
+    justify-content: center;
+    margin-right:200px;
+    margin-right:165px;
+}
+.text-1{
+    position:relative;
+    bottom:50px;
+    left:10px;
+    color:white;
+}
+
+.section-3 .main-cont .items-places{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-3 .section-3-heading{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:40px;
+    line-height: 1.2;
+    color: black;
+}
+
+.section-3 .main-cont .items-places .item-container{
+    width:100%;
+    max-width: 26%;
+    height: 80px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(215,215,215);
+    padding: 20px;
+    cursor: pointer;
+}
+.section-3 .main-cont{
+    margin-top: 20px;
+}
+.section-3 .main-cont .items-places .item-container p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 5px;
+    margin: 0%;
+}
+
+
+.section-4 .section-4-heading{
+    font-size: 30px;
+    margin-left:650px;
+    margin-top:150px;
+    font-weight: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-4 .sec-4-contain .sec-4-imge img{
+    width:300px;
+    height:300px;
+    margin-left: 350px;
+    background-color: rgba(244, 235, 227, 0.569);
+
+}
+.section-4 .sec-4-contain .sec-4-imge{
+    display: flex;
+}
+.section-4 .sec-4-contain .sec-4-imge .para{
+    margin-top:30px;
+    font-size: 20px;
+}
+.section-4 .sec-4-contain .sec-4-imge .radio{
+    font-size: 20px;
+    margin:20px;
+}
+.section-4 .sec-4-contain .sec-4-imge .Email{
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+}
+.section-4 .sec-4-contain .sec-4-imge button{
+    width:150px;
+    height: 50px;
+    background-color: rgba(247, 45, 45, 0.682);
+    color:white;
+    border-radius: 6px;
+    cursor:pointer;
+
+}
+.section-4 .sec-4-contain .sec-4-imge .sec-4-paragraph{
+    font-size:18px;
+}
+.section-4 .sec-4-contain .sec-4-imge .contain-logos img{
+    width:150px;
+    height: 40px;
+    margin:10px;
+}
+.section-4 .sec-4-contain .sec-4-imge .contain-logos{
+    display: flex;
+    justify-content: center;
+
+}
+.section-4{
+    background-color: rgba(244, 235, 227, 0.569);
+}
+
+.section-5{
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top:30px;
+    margin-left:200px;
+}
+.section-5 .sec-5-contain{
+    margin-top:80px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-5 .sec-5-option .option-1{
+    margin-top:20px;
+    width:1200px;
+    box-shadow: 0 2px 4px rgb(215,215,215);
+    border-radius: 10px;
+    height: 60px;
+    padding: 20px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.section-5 .sec-5-option .option-1 i{
+    float:right;
+}
+
+.footer-superb{
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top:30px;
+    margin-left:200px;   
+    display:block; 
+}
+.footer-superb .external .heading-zomato{
+    font-size:20px;
+    font-family: arial black;
+}
+.footer-superb .external{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+.footer-superb .option-available select{
+    width:90px;
+    height: 40px;
+    font-size:20px;
+    margin:10px;
+    border-radius: 6px;
+}
+.footer-superb .other-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.footer-superb .other-details .about,.links-logos{
+    margin:10px;
+}
+.footer-superb .other-details p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-superb .other-details a{
+    text-decoration: none;
+    font-family: courier;
+}
+.footer-superb .other-details .links-logos img{
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+}
+.last div{
+    margin-bottom: 50px;
+}
+.last .para-footer{
+    margin-top:20px;
+    margin-bottom:10px;
+    text-align:center;
+}
+.last .para-2{
+    margin-left:180px;
+    margin-bottom:30px;
+
+}
+hr{
+    width:1300px;
+    margin-left:140px;
+}

@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 5px;
+}
+
+.btn{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    padding:20px;
+}
+
+.btn button{
+    padding: 8px;
+    color: white;
+    margin-left: 42%;
+    width: 120px;
+    background-color: maroon;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+    text-shadow: 2px 2px 2px rgb(61, 59, 59);
+}
+
+.one{
+    color:red;
+}
