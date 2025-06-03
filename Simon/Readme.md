@@ -34,5 +34,4 @@ Simon is an electronic game of memory skill. The device creates a series of tone
 ![image](https://github.com/user-attachments/assets/7df5b85b-6c21-4288-9f85-991111c2dd1b)
 
 
-## 📁 Project Structure
 
