@@ -1,0 +1,158 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    width: 100%;
+    max-width: 672px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+#task {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+#task:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+button {
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#taskBtn {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+#taskBtn:hover {
+    background-color: #1c49aa;
+}
+
+.message-box {
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.message-box.hidden {
+    display: none;
+}
+
+.message-box.success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.message-box.error {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.task-label {
+    flex: 1;
+    color: #374151;
+}
+
+.task-btns {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.task-btns button {
+    background: transparent;
+    padding: 8px;
+}
+
+.edit-btn {
+    color: greenyellow;
+}
+
+.edit-btn:hover {
+    color: green;
+}
+
+.delete-btn {
+    color: red;
+}
+
+.delete-btn:hover {
+    color: #da7272;
+}
+
+.clear-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#clearBtn {
+    background-color: rgb(173, 67, 103);
+    color: #fff;
+    border: 2px outset rgb(173, 67, 103);
+    padding: 12px 24px;
+}
+
+#clearBtn:hover {
+    background-color: #ffb6c1;
+    color: black;
+    border: 2px inset rgb(173, 67, 103);
+}
